@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookMessager", "DiscordPing\WebhookMessager.csproj", "{C7CF4451-0A2C-4690-A3B0-E06F4B6C6277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CF4451-0A2C-4690-A3B0-E06F4B6C6277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CF4451-0A2C-4690-A3B0-E06F4B6C6277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CF4451-0A2C-4690-A3B0-E06F4B6C6277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CF4451-0A2C-4690-A3B0-E06F4B6C6277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08C7248-38D1-4839-9F85-BA2CDD9C0A10}
+	EndGlobalSection
+EndGlobal
