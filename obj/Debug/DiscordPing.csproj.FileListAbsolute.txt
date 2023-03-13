@@ -1,0 +1,13 @@
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\DiscordPing.exe.config
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\DiscordPing.exe
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\DiscordPing.pdb
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\Guna.UI2.dll
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.csproj.AssemblyReference.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.csproj.SuggestedBindingRedirects.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.Form1.resources
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.Properties.Resources.resources
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.csproj.GenerateResource.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.csproj.CoreCompileInputs.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.csproj.CopyComplete
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.exe
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.pdb

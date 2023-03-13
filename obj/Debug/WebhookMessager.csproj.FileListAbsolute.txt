@@ -1,0 +1,13 @@
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\Guna.UI2.dll
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.csproj.AssemblyReference.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.csproj.SuggestedBindingRedirects.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\DiscordPing.Main.resources
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.csproj.GenerateResource.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.csproj.CoreCompileInputs.cache
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.csproj.CopyComplete
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\WebhookMessager.exe.config
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\WebhookMessager.exe
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\WebhookMessager.pdb
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.Properties.Resources.resources
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.exe
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.pdb
