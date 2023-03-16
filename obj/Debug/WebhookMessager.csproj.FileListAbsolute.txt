@@ -11,3 +11,5 @@ C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\WebhookMessager.pd
 C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.Properties.Resources.resources
 C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.exe
 C:\Users\totor\source\repos\DiscordPing\DiscordPing\obj\Debug\WebhookMessager.pdb
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\Newtonsoft.Json.dll
+C:\Users\totor\source\repos\DiscordPing\DiscordPing\bin\Debug\Newtonsoft.Json.xml

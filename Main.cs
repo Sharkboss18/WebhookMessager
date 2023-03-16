@@ -53,7 +53,6 @@ namespace DiscordPing
             StringContent content = new StringContent("{\"content\":\"" + message + "\"}", Encoding.UTF8, "application/json");
             content.Headers.ContentType.CharSet = "utf-8";
 
-
             try
             {
                 // Post the message data to the webhook URL
@@ -64,6 +63,33 @@ namespace DiscordPing
                 {
                     // If the message was sent successfully, log a success message
                     AddLogMessage("Message sent successfully.");
+
+                    // Update the webhook nickname
+                    string nickname = nicknameTextBox.Text.Trim();
+                    if (!string.IsNullOrEmpty(nickname))
+                    {
+                        // Create a JSON payload with the new nickname
+                        string payload = "{\"name\":\"" + nickname + "\"}";
+
+                        // Create a new HttpRequestMessage to update the webhook
+                        HttpRequestMessage request = new HttpRequestMessage(new HttpMethod("PATCH"), webhookUrl);
+                        request.Content = new StringContent(payload, Encoding.UTF8, "application/json");
+
+                        // Send the request to update the webhook
+                        HttpResponseMessage nicknameResponse = client.SendAsync(request).Result;
+
+                        // Check the response status code to see if the nickname was successfully updated
+                        if (nicknameResponse.IsSuccessStatusCode)
+                        {
+                            // If the nickname was updated successfully, log a success message
+                            AddLogMessage("Webhook nickname updated successfully.");
+                        }
+                        else
+                        {
+                            // If there was an error updating the nickname, log an error message
+                            AddLogMessage("Error updating webhook nickname: " + nicknameResponse.StatusCode.ToString());
+                        }
+                    }
                 }
                 else
                 {
@@ -77,6 +103,7 @@ namespace DiscordPing
                 AddLogMessage("Error sending message: " + ex.Message);
             }
         }
+
 
 
         private void AddLogMessage(string message)
@@ -114,7 +141,7 @@ namespace DiscordPing
             sendDelay = delaySlider.Value;
         }
 
-        
+
         private Thread sendingThread = null;
 
         private void enableSendingCheckBox_CheckedChanged(object sender, EventArgs e)

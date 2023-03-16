@@ -37,6 +37,7 @@
             this.logTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.nicknameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +68,7 @@
             // 
             this.sendButton.Animated = true;
             this.sendButton.AutoRoundedCorners = true;
-            this.sendButton.BorderRadius = 6;
+            this.sendButton.BorderRadius = 14;
             this.sendButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.sendButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.sendButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -96,7 +97,7 @@
             this.webhookUrlTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.webhookUrlTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(228)))), ((int)(((byte)(222)))));
             this.webhookUrlTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.webhookUrlTextBox.Location = new System.Drawing.Point(109, 93);
+            this.webhookUrlTextBox.Location = new System.Drawing.Point(109, 64);
             this.webhookUrlTextBox.Name = "webhookUrlTextBox";
             this.webhookUrlTextBox.PasswordChar = '\0';
             this.webhookUrlTextBox.PlaceholderText = "Webhook";
@@ -160,7 +161,7 @@
             this.logTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.logTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(228)))), ((int)(((byte)(222)))));
             this.logTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.logTextBox.Location = new System.Drawing.Point(109, 162);
+            this.logTextBox.Location = new System.Drawing.Point(109, 148);
             this.logTextBox.Name = "logTextBox";
             this.logTextBox.PasswordChar = '\0';
             this.logTextBox.PlaceholderText = "Log";
@@ -195,19 +196,42 @@
             this.guna2Panel1.Size = new System.Drawing.Size(379, 164);
             this.guna2Panel1.TabIndex = 13;
             // 
-            // Form1
+            // nicknameTextBox
+            // 
+            this.nicknameTextBox.Animated = true;
+            this.nicknameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nicknameTextBox.DefaultText = "";
+            this.nicknameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nicknameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nicknameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nicknameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nicknameTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.nicknameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nicknameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nicknameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(228)))), ((int)(((byte)(222)))));
+            this.nicknameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nicknameTextBox.Location = new System.Drawing.Point(109, 106);
+            this.nicknameTextBox.Name = "nicknameTextBox";
+            this.nicknameTextBox.PasswordChar = '\0';
+            this.nicknameTextBox.PlaceholderText = "Username";
+            this.nicknameTextBox.SelectedText = "";
+            this.nicknameTextBox.Size = new System.Drawing.Size(200, 36);
+            this.nicknameTextBox.TabIndex = 14;
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(419, 450);
+            this.Controls.Add(this.nicknameTextBox);
             this.Controls.Add(this.webhookUrlTextBox);
             this.Controls.Add(this.logTextBox);
             this.Controls.Add(this.sendButton);
             this.Controls.Add(this.messageTextBox);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Webhook Messager";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel1.ResumeLayout(false);
@@ -226,6 +250,7 @@
         private Guna.UI2.WinForms.Guna2TextBox logTextBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2TextBox nicknameTextBox;
     }
 }
 
